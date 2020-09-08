@@ -1448,10 +1448,14 @@ cursor: pointer;
 .lower-contact .contact-info .fa{
     color: white;
 }
+.lower-contact #success{
+    color: rgb(131, 209, 13);
+    font-size: 24px;
+}
 form{
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 430px;
     width: 35%;
     align-items: center;
     justify-content: space-around;
@@ -2018,7 +2022,30 @@ transition: .5s;
         height: 300px;
         margin-bottom: 80px;
     }
-    
+    .upper-contact h1{
+        font-size: 34px;
+    }
+    .upper-contact h3{
+        font-size: 15px;
+    }
+    .lower-contact .contact-info h2{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .lower-contact #success{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    form{
+        width: 80%;
+        height:420px ;
+    }
+    form input{
+        font-size: 16px;
+    }
+    form textarea{
+        font-size: 16px;
+    }
     .footer .container-footer{
         height: 40%;
     }
