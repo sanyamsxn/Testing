@@ -1414,6 +1414,8 @@ cursor: pointer;
 }
 .lower-contact{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .lower-contact .contact-info{
     display: flex;
