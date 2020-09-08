@@ -1390,41 +1390,54 @@ cursor: pointer;
                             /*---contact section */
 
 #contact{
-    background: crimson;
+    background: black;
     height: 700px;
 }
 #contact .upper-contact{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgb(9, 9, 56),black);
     height: 200px;
     justify-content: center;
+    position: relative;
+}
+#contact .upper-contact .background-upper{
+    background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    opacity: 0.3;
 }
 .upper-contact h1{
     color: white;
     font-size: 50px;
+    z-index: 2;
 }
 .upper-contact h3{
     color: whitesmoke;
     font-size: 22px;
+    z-index: 2;
 }
 .upper-contact h3 .fa{
     color: red;
 }
 .lower-contact{
-    height:490px ;
-    background: cornflowerblue;
+    height:500px ;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .lower-contact .contact-info{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   height: 200px;
-   background: green;
+    justify-content: space-around;
+    align-items: center;
+   height: 30px;
+   width: 100%;
+   box-shadow:0 2px 1px rgb(68, 68, 68);
 }
 .lower-contact .contact-info h2{
     display: inline-block;
@@ -1438,11 +1451,12 @@ cursor: pointer;
 form{
     display: flex;
     flex-direction: column;
-    background: rgb(0, 0, 0);
     height: 450px;
-    width: 30%;
+    width: 35%;
     align-items: center;
     justify-content: space-around;
+    border: none;
+    margin-top: 15px;
 }
 form input{
     width: 100%;
@@ -1478,6 +1492,8 @@ form button{
     background: black;
     color: white;
     cursor: pointer;
+    font-size: 15px;
+    word-spacing: 3px;
 }
                                              /* -----end of contact section--------*/
 
@@ -1503,6 +1519,10 @@ form button{
     width: 80px;
     opacity: 0.7;
     margin-left: 50px;
+}
+.footer .center-footer{
+    position: relative;
+    left:60px
 }
 .footer .center-footer h1{
     font-size: 30px;
