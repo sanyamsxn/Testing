@@ -1391,14 +1391,14 @@ cursor: pointer;
 
 #contact{
     background: crimson;
-    height: 100vh;
+    height: 700px;
 }
 #contact .upper-contact{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(rgb(9, 9, 56),black);
-    height: 30vh;
+    height: 200px;
     justify-content: center;
 }
 .upper-contact h1{
@@ -1413,7 +1413,7 @@ cursor: pointer;
     color: red;
 }
 .lower-contact{
-    height: 70vh;
+    height:490px ;
     background: cornflowerblue;
     display: flex;
     justify-content: center;
@@ -1423,7 +1423,8 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   height: 200px;background: green;
+   height: 200px;
+   background: green;
 }
 .lower-contact .contact-info h2{
     display: inline-block;
@@ -1437,11 +1438,46 @@ cursor: pointer;
 form{
     display: flex;
     flex-direction: column;
-    background: chocolate;
-    height: 400px;
-    width: 40%;
+    background: rgb(0, 0, 0);
+    height: 450px;
+    width: 30%;
     align-items: center;
     justify-content: space-around;
+}
+form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(77, 75, 75);
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(80, 77, 77);
+    background: transparent;
+    resize: none;
+    color: white;
+    font-size: 18px;
+}
+form input::placeholder{
+    color: rgb(158, 152, 152);
+    opacity: 0.6;
+    font-size: 14px;
+}
+form textarea::placeholder{
+    color: rgb(158, 152, 152);
+    opacity: 0.6;
+    font-size: 14px;
+}
+form button{
+    padding: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
 }
                                              /* -----end of contact section--------*/
 
