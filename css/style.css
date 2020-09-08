@@ -1391,14 +1391,14 @@ cursor: pointer;
 
 #contact{
     background: crimson;
-    height: 700px;
+    height: 100vh;
 }
 #contact .upper-contact{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(rgb(9, 9, 56),black);
-    height: 200px;
+    height: 30vh;
     justify-content: center;
 }
 .upper-contact h1{
@@ -1413,6 +1413,8 @@ cursor: pointer;
     color: red;
 }
 .lower-contact{
+    height: 70vh;
+    background: cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
